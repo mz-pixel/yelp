@@ -7,7 +7,7 @@ const Results = ({ results, term, location }) => {
     <div className="Results">
       <div className="container">
         <h3>
-          Here are the top 25 businesses returned by Yelp for {term} in{" "}
+          Here are the top 25 businesses for {term} in{" "}
           {location}
         </h3>
         <div className="cards-container">
